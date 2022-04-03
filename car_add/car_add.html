@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Lab4</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="stylesheet" href="car_add.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="car_add.js" defer="defer"></script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Lab4</h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../index.html">main</a></li>
+            <li><a href="../customer_list/customer_list.html">users</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Create car</h2></header>
+            <form class="car__form" id="infoForm">
+                <label for="registration">Registration:</label>
+                <input class="ui-control ui-input" id="registration" name="registration"/>
+                <label for="mark">Mark:</label>
+                <input class="ui-control ui-input" id="mark" name="mark"/>
+                <label for="productionYear">Production year:</label>
+                <input class="ui-control ui-input" id="productionYear" name="productionYear" type="number"/>
+                <label for="owner">Owner`s id:</label>
+                <input class="ui-control ui-input" id="owner" name="owner" type="number" readonly/>
+                <input class="ui-control ui-button" type="submit" name="Create"/>
+            </form>
+        </article>
+
+    </section>
+
+    <footer class="footer">
+    </footer>
+</div>
+</body>
+</html>
